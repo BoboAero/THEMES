@@ -22,7 +22,7 @@
 :root {
   --font-primary: Roboto;
   --font-code: Fira Code;
-  --floating-background-opacity: 50;
+  --floating-background-opacity: 100;
   --floating-background-blur: 40px;
   --version: "0.9.9";
   --version0_9_9: none;
