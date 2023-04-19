@@ -1,5 +1,5 @@
 /**
- * @name CustomTheme
+ * @name customtheme
  * @version 0.9.9
  * @author TheCommieAxolotl#0001
  * @authorId 538487970408300544
@@ -12,7 +12,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css');
 @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css');
@@ -21,8 +21,8 @@
 
 :root {
   --font-primary: Roboto;
-  --font-code: Fira Code;
-  --floating-background-opacity: 100;
+  --font-code: Source Code Pro;
+  --floating-background-opacity: 25;
   --floating-background-blur: 40px;
   --version: "0.9.9";
   --version0_9_9: none;
@@ -83,9 +83,9 @@
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
   --rs-large-spacing: 2px;
-  --rs-small-width: 1px;
+  --rs-small-width: 2px;
   --rs-medium-width: 2px;
-  --rs-large-width: 4px;
+  --rs-large-width: 2px;
   --rs-avatar-shape: 50%;
   --rs-online-color: #43b581;
   --rs-idle-color: #faa61a;
@@ -96,17 +96,17 @@
 }
 
 .theme-dark {
-  --skin-accent-h: 251;
-  --skin-accent-s: 66%;
-  --skin-accent-l: 56;
-  --skin-accent-a: 100;
-  --skin-background-h: 360;
-  --skin-background-s: 0%;
-  --skin-background-l: 38;
-  --skin-background-a: 1;
+  --skin-accent-h: 255;
+  --skin-accent-s: 100%;
+  --skin-accent-l: 90;
+  --skin-accent-a: 25;
+  --skin-background-h: 298;
+  --skin-background-s: 10%;
+  --skin-background-l: 100;
+  --skin-background-a: 100;
   --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
-  --switch-unchecked-background: #00000033;
-  --switch-unchecked-color: #FF0000;
+  --switch-unchecked-background: #74796e33;
+  --switch-unchecked-color: #74796e;
   --skin-name: "Default";
   --skin-author: "TheCommieAxolotl";
   --00dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.07% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
@@ -145,13 +145,13 @@
 }
 
 .theme-light {
-  --skin-accent-h: 251;
-  --skin-accent-s: 66%;
-  --skin-accent-l: 56;
-  --skin-accent-a: 100;
+  --skin-accent-h: 255;
+  --skin-accent-s: 100%;
+  --skin-accent-l: 90;
+  --skin-accent-a: 25;
   --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
-  --switch-unchecked-background: #00000033;
-  --switch-unchecked-color: #FF0000;
+  --switch-unchecked-background: #74796e33;
+  --switch-unchecked-color: #74796e;
   --skin-name: "Default Light";
   --skin-author: "TheCommieAxolotl";
 }
