@@ -1,0 +1,37 @@
+/**
+ * @name CTheme2
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author Spectra
+ * @invite PZdnCVD
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ * @BDEditor Neutron
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+:root {
+  --backgroundImage: url('https://res.cloudinary.com/dkkd45ayz/image/upload/f_auto,q_auto,dpr_auto/w_3240,h_1823,c_fill,g_auto/w_2048,h_1152,c_scale/episerver/bfb83be4-f88f-46b8-a392-7e0fbd97fa09/gripen-e_0090.jpg');
+  --backgroundColor: #0d0d0d;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 3px;
+  --backgroundOpacity: 0.7;
+  --homeImage: url('https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png');
+  --homeImageSize: 75%;
+  --themeColor1: #3A668A;
+  --themeColor2: #1300C2;
+  --customFont: Open Sans;
+  --backgroundCode: rgb(0,0,0,0.76);
+  --backgroundName: rgb(0,0,0,1);
+  --HSL-server-icon-size: 45px;
+  --HSL-server-spacing: 10px;
+}
+
+/* Any custom CSS below here */
+
+
